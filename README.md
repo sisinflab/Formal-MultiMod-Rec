@@ -1,4 +1,4 @@
-# A survey on Adversarial Recommender Systems: from Attack/Defense strategies to Generative Adversarial Networks
+# Multimodal Recommendation: Technical Challenges and Applications for Social Good
 
 A table of multimodal recommender systems publications. This page will be ****periodically**** updated to include recent works.
 
