@@ -8,5 +8,5 @@ The table is complement of the article **Multimodal Recommendation: Technical Ch
 
 ## Overview
 
-| Year        | Title           | Modalities       |   Feature Extractor     | Multimodal representation||Fusion | Venue    | Link        |  Code      |
+| Year        | Title           | Modalities       |   Feature Extractor     | Multimodal representation |Fusion | Venue    | Link        |  Code      |
 |-------|--------|--------|--------|-----------|---------------|---------| ---------------|---------|
