@@ -6,9 +6,8 @@ The table is complement of the article **Multimodal Recommendation: Technical Ch
 
 
 
-## Papers
+## Overview
 
-### ADVERSARIAL MACHINE LEARNING FOR SECURITY OF RS
 | Year        | Title           | Modalities       |   Feature Extractor     | Multimodal representation||Fusion | Venue    | Link        |  Code      |
 |-------|--------|--------|--------|-----------|---------------|---------| ---------------|---------|
-|2015|**A System for Video Recommendation using VisualSaliency, Crowdsourced and Automatic Annotations.**| Visual | TFE-Pretrained | Joint| | ACM MM| [Link](http://www.micc.unifi.it/blog/web-applications/a-system-for-video-recommendation-using-visual-saliency-crowdsourced-and-automatic-annotations)| |
+|2015|**A System for Video Recommendation using VisualSaliency, Crowdsourced and Automatic Annotations.**| Visual | TFE-Pretrained | Joint| | ACM MM| [Link](http://www.micc.unifi.it/blog/web-applications/a-system-for-video-recommendation-using-visual-saliency-crowdsourced-and-automatic-annotations)| | |
