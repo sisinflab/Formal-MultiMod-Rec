@@ -2,14 +2,16 @@
 
 A table of multimodal recommender systems publications. This page will be ****periodically**** updated to include recent works.
 
-The table is complement of the article **Multimodal Recommendation: Technical Challenges andApplications for Social Good** submitted at ACM Multimedia 2021 in the Brave New ideas Track.
+The table is taken from **Multimodal Recommendation: Technical Challenges andApplications for Social Good** submitted at ACM Multimedia 2021 in the Brave New ideas Track.
 
 
 
-## Overview
+## Review
 
 
 <table cellspacing="0" border="0">
+	<caption>Overview of the core questions which arise when modelling a multimodal recommender system, as observed in the
+literature. HFE: Handcrafted Feature Extraction, TFE: Trainable Feature Extraction, MMR: Multi-Modal Representation.</caption>
 	<colgroup width="120"></colgroup>
 	<colgroup span="5" width="85"></colgroup>
 	<colgroup width="118"></colgroup>
