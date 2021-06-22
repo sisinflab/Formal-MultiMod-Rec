@@ -42,14 +42,14 @@ The table is complement of the article **Multimodal Recommendation: Technical Ch
 	<tr>
 		<td style="border-left: 1px solid #000000" height="17" align="left">Ferracani et al.</td>
 		<td align="center" sdval="2015" sdnum="1033;">2015</td>
-		<td align="left">&#10004;</td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
 		<td style="border-right: 1px solid #000000" align="left"><br></td>
@@ -57,14 +57,14 @@ The table is complement of the article **Multimodal Recommendation: Technical Ch
 	<tr>
 		<td style="border-left: 1px solid #000000" height="17" align="left">Jia et al.</td>
 		<td align="center" sdval="2015" sdnum="1033;">2015</td>
-		<td align="left">[x]</td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
 		<td style="border-right: 1px solid #000000" align="left"><br></td>
@@ -72,14 +72,14 @@ The table is complement of the article **Multimodal Recommendation: Technical Ch
 	<tr>
 		<td style="border-left: 1px solid #000000" height="17" align="left">Li et al.</td>
 		<td align="center" sdval="2015" sdnum="1033;">2015</td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
 		<td style="border-right: 1px solid #000000" align="left"><br></td>
@@ -87,29 +87,29 @@ The table is complement of the article **Multimodal Recommendation: Technical Ch
 	<tr>
 		<td style="border-left: 1px solid #000000" height="17" align="left">Nie et al.</td>
 		<td align="center" sdval="2016" sdnum="1033;">2016</td>
-		<td align="left">[x]</td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
-		<td align="left">[x]</td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
+		<td align="left">&amp;#10004;</td>
 		<td style="border-right: 1px solid #000000" align="left"><br></td>
 	</tr>
 	<tr>
 		<td style="border-left: 1px solid #000000" height="17" align="left">Chen et al.</td>
 		<td align="center" sdval="2016" sdnum="1033;">2016</td>
-		<td align="left">[x]</td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
 		<td align="right"><br></td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
 		<td style="border-right: 1px solid #000000" align="left"><br></td>
@@ -117,44 +117,44 @@ The table is complement of the article **Multimodal Recommendation: Technical Ch
 	<tr>
 		<td style="border-left: 1px solid #000000" height="17" align="left">Nag et al.</td>
 		<td align="center" sdval="2017" sdnum="1033;">2017</td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
-		<td align="left">[x]</td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
+		<td align="left">&amp;#10004;</td>
 		<td style="border-right: 1px solid #000000" align="left"><br></td>
 	</tr>
 	<tr>
 		<td style="border-left: 1px solid #000000" height="17" align="left">Han et al.</td>
 		<td align="center" sdval="2017" sdnum="1033;">2017</td>
-		<td align="left">[x]</td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
-		<td align="left">[x]</td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
+		<td align="left">&amp;#10004;</td>
 		<td style="border-right: 1px solid #000000" align="left"><br></td>
 	</tr>
 	<tr>
 		<td style="border-left: 1px solid #000000" height="17" align="left">Ying et al.</td>
 		<td align="center" sdval="2018" sdnum="1033;">2018</td>
-		<td align="left">[x]</td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
 		<td style="border-right: 1px solid #000000" align="left"><br></td>
@@ -162,14 +162,14 @@ The table is complement of the article **Multimodal Recommendation: Technical Ch
 	<tr>
 		<td style="border-left: 1px solid #000000" height="17" align="left">Wang et al.</td>
 		<td align="center" sdval="2018" sdnum="1033;">2018</td>
-		<td align="left">[x]</td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
 		<td style="border-right: 1px solid #000000" align="left"><br></td>
@@ -177,44 +177,44 @@ The table is complement of the article **Multimodal Recommendation: Technical Ch
 	<tr>
 		<td style="border-left: 1px solid #000000" height="17" align="left">Wei et al.</td>
 		<td align="center" sdval="2019" sdnum="1033;">2019</td>
-		<td align="left">[x]</td>
-		<td align="left">[x]</td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
+		<td align="left">&amp;#10004;</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
-		<td style="border-right: 1px solid #000000" align="left">[x]</td>
+		<td style="border-right: 1px solid #000000" align="left">&amp;#10004;</td>
 	</tr>
 	<tr>
 		<td style="border-left: 1px solid #000000" height="17" align="left">Dong et al.</td>
 		<td align="center" sdval="2019" sdnum="1033;">2019</td>
-		<td align="left">[x]</td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
-		<td align="left">[x]</td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
+		<td align="left">&amp;#10004;</td>
 		<td style="border-right: 1px solid #000000" align="left"><br></td>
 	</tr>
 	<tr>
 		<td style="border-left: 1px solid #000000" height="17" align="left">Chen et al.</td>
 		<td align="center" sdval="2019" sdnum="1033;">2019</td>
-		<td align="left">[x]</td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
 		<td style="border-right: 1px solid #000000" align="left"><br></td>
@@ -222,14 +222,14 @@ The table is complement of the article **Multimodal Recommendation: Technical Ch
 	<tr>
 		<td style="border-left: 1px solid #000000" height="17" align="left">Sun et al.</td>
 		<td align="center" sdval="2020" sdnum="1033;">2020</td>
-		<td align="left">[x]</td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
 		<td style="border-right: 1px solid #000000" align="left"><br></td>
@@ -237,14 +237,14 @@ The table is complement of the article **Multimodal Recommendation: Technical Ch
 	<tr>
 		<td style="border-left: 1px solid #000000" height="17" align="left">Chen et al.</td>
 		<td align="center" sdval="2020" sdnum="1033;">2020</td>
-		<td align="left">[x]</td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
 		<td style="border-right: 1px solid #000000" align="left"><br></td>
@@ -252,14 +252,14 @@ The table is complement of the article **Multimodal Recommendation: Technical Ch
 	<tr>
 		<td style="border-left: 1px solid #000000" height="17" align="left">Min et al.</td>
 		<td align="center" sdval="2020" sdnum="1033;">2020</td>
-		<td align="left">[x]</td>
-		<td align="left">[x]</td>
-		<td align="left">[x]</td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
+		<td align="left">&amp;#10004;</td>
+		<td align="left">&amp;#10004;</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
-		<td align="left">[x]</td>
+		<td align="left">&amp;#10004;</td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
 		<td style="border-right: 1px solid #000000" align="left"><br></td>
@@ -267,16 +267,16 @@ The table is complement of the article **Multimodal Recommendation: Technical Ch
 	<tr>
 		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000" height="17" align="left">Yang et al.</td>
 		<td style="border-bottom: 1px solid #000000" align="center" sdval="2020" sdnum="1033;">2020</td>
-		<td style="border-bottom: 1px solid #000000" align="left">[x]</td>
-		<td style="border-bottom: 1px solid #000000" align="left">[x]</td>
+		<td style="border-bottom: 1px solid #000000" align="left">&amp;#10004;</td>
+		<td style="border-bottom: 1px solid #000000" align="left">&amp;#10004;</td>
 		<td style="border-bottom: 1px solid #000000" align="left"><br></td>
 		<td style="border-bottom: 1px solid #000000" align="left"><br></td>
 		<td style="border-bottom: 1px solid #000000" align="left"><br></td>
-		<td style="border-bottom: 1px solid #000000" align="left">[x]</td>
+		<td style="border-bottom: 1px solid #000000" align="left">&amp;#10004;</td>
 		<td style="border-bottom: 1px solid #000000" align="left"><br></td>
 		<td style="border-bottom: 1px solid #000000" align="left"><br></td>
-		<td style="border-bottom: 1px solid #000000" align="left">[x]</td>
+		<td style="border-bottom: 1px solid #000000" align="left">&amp;#10004;</td>
 		<td style="border-bottom: 1px solid #000000" align="left"><br></td>
-		<td style="border-bottom: 1px solid #000000; border-right: 1px solid #000000" align="left">[x]</td>
+		<td style="border-bottom: 1px solid #000000; border-right: 1px solid #000000" align="left">&amp;#10004;</td>
 	</tr>
 </table>
