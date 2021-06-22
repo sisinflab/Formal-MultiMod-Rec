@@ -41,7 +41,7 @@ The table is complement of the article **Multimodal Recommendation: Technical Ch
 		<td style="border-bottom: 1px solid #000000" align="center" valign=middle><i>Coordinate</i></td>
 		</tr>
 	<tr>
-		<td style="border-left: 1px solid #000000" height="17" align="left">Ferracani et al.</td>
+		<td style="border-left: 1px solid #000000" height="17" align="left"><a href="https://dl.acm.org/doi/10.1145/2733373.2807982">Ferracani et al.</a></td>
 		<td align="center" sdval="2015" sdnum="1033;">2015</td>
 		<td align="left">&#10004;</td>
 		<td align="left">&#10004;</td>
