@@ -10,7 +10,8 @@ The table is taken from **Multimodal Recommendation: Technical Challenges andApp
 
 
 <table cellspacing="0" border="0">
-	<caption>Table 1. Overview of the core questions which arise when modelling a multimodal recommender system, as observed in the
+	<caption>Table 1. Overview of the core questions 
+		arise when modelling a multimodal recommender system, as observed in the
 literature. HFE: Handcrafted Feature Extraction, TFE: Trainable Feature Extraction, MMR: Multi-Modal Representation.</caption>
 	<colgroup width="120"></colgroup>
 	<colgroup span="5" width="85"></colgroup>
@@ -21,15 +22,15 @@ literature. HFE: Handcrafted Feature Extraction, TFE: Trainable Feature Extracti
 	<tr>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000" rowspan=3 height="51" align="center" valign=middle><b>Papers</b></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" rowspan=3 align="center" valign=middle><b>Year</b></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" colspan=4 align="center"><b>Modalities (Which?)</b></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" colspan=5 align="center" valign=middle><b>Feature Elaboration (How?)</b></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 1px solid #000000" colspan=2 align="center"><b>Fusion (When?)</b></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" colspan=4 align="center"><b>Modalities (<i>Which?</i>)</b></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" colspan=5 align="center" valign=middle><b>Feature Elaboration (<i>How?</i>)</b></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 1px solid #000000" colspan=2 align="center"><b>Fusion (<i>When</i>?)</b></td>
 		</tr>
 	<tr>
-		<td style="border-bottom: 1px solid #000000" rowspan=2 align="center" valign=middle>Visual</td>
-		<td style="border-bottom: 1px solid #000000" rowspan=2 align="center" valign=middle>Textual</td>
-		<td style="border-bottom: 1px solid #000000" rowspan=2 align="center" valign=middle>Audio</td>
-		<td style="border-bottom: 1px solid #000000" rowspan=2 align="center" valign=middle>Sensory</td>
+		<td style="border-bottom: 1px solid #000000" rowspan=2 align="center" valign=middle><i>Visual</i></td>
+		<td style="border-bottom: 1px solid #000000" rowspan=2 align="center" valign=middle><i>Textual</i></td>
+		<td style="border-bottom: 1px solid #000000" rowspan=2 align="center" valign=middle><i>Audio</i></td>
+		<td style="border-bottom: 1px solid #000000" rowspan=2 align="center" valign=middle><i>Sensory</i></td>
 		<td style="border-bottom: 1px solid #000000" rowspan=2 align="center" valign=middle>HFE</td>
 		<td style="border-bottom: 1px solid #000000" colspan=2 align="center">TFE</td>
 		<td style="border-bottom: 1px solid #000000" colspan=2 align="center" valign=middle>MMR</td>
