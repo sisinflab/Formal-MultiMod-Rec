@@ -10,7 +10,7 @@ The table is taken from **Multimodal Recommendation: Technical Challenges andApp
 
 
 <table cellspacing="0" border="0">
-	<caption>Overview of the core questions which arise when modelling a multimodal recommender system, as observed in the
+	<caption>Table 1. Overview of the core questions which arise when modelling a multimodal recommender system, as observed in the
 literature. HFE: Handcrafted Feature Extraction, TFE: Trainable Feature Extraction, MMR: Multi-Modal Representation.</caption>
 	<colgroup width="120"></colgroup>
 	<colgroup span="5" width="85"></colgroup>
