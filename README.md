@@ -8,6 +8,13 @@ The table is complement of the article **Multimodal Recommendation: Technical Ch
 
 ## Overview
 
+<style type="text/css">
+		body,div,table,thead,tbody,tfoot,tr,th,td,p { font-family:"Liberation Sans"; font-size:x-small }
+		a.comment-indicator:hover + comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em;  } 
+		a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em;  } 
+		comment { display:none;  } 
+	</style>
+
 <table cellspacing="0" border="0">
 	<colgroup width="120"></colgroup>
 	<colgroup span="5" width="85"></colgroup>
