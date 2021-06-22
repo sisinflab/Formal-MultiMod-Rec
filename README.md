@@ -71,7 +71,7 @@ The table is complement of the article **Multimodal Recommendation: Technical Ch
 		<td style="border-right: 1px solid #000000" align="left"><br></td>
 	</tr>
 	<tr>
-		<td style="border-left: 1px solid #000000" height="17" align="left">Li et al.</td>
+		<td style="border-left: 1px solid #000000" height="17" align="left"><a href="https://link.springer.com/article/10.1007/s11042-013-1825-x">Li et al.</a></td>
 		<td align="center" sdval="2015" sdnum="1033;">2015</td>
 		<td align="left">&#10004;</td>
 		<td align="left"><br></td>
@@ -86,7 +86,7 @@ The table is complement of the article **Multimodal Recommendation: Technical Ch
 		<td style="border-right: 1px solid #000000" align="left"><br></td>
 	</tr>
 	<tr>
-		<td style="border-left: 1px solid #000000" height="17" align="left">Nie et al.</td>
+		<td style="border-left: 1px solid #000000" height="17" align="left"><a href="https://link.springer.com/article/10.1007%2Fs11042-014-2339-x">Nie et al.</a></td>
 		<td align="center" sdval="2016" sdnum="1033;">2016</td>
 		<td align="left">&#10004;</td>
 		<td align="left">&#10004;</td>
@@ -101,7 +101,7 @@ The table is complement of the article **Multimodal Recommendation: Technical Ch
 		<td style="border-right: 1px solid #000000" align="left"><br></td>
 	</tr>
 	<tr>
-		<td style="border-left: 1px solid #000000" height="17" align="left">Chen et al.</td>
+		<td style="border-left: 1px solid #000000" height="17" align="left"><a href="https://dl.acm.org/doi/10.1145/2964284.2964291">Chen et al.</a></td>
 		<td align="center" sdval="2016" sdnum="1033;">2016</td>
 		<td align="left">&#10004;</td>
 		<td align="left">&#10004;</td>
@@ -116,7 +116,7 @@ The table is complement of the article **Multimodal Recommendation: Technical Ch
 		<td style="border-right: 1px solid #000000" align="left"><br></td>
 	</tr>
 	<tr>
-		<td style="border-left: 1px solid #000000" height="17" align="left">Nag et al.</td>
+		<td style="border-left: 1px solid #000000" height="17" align="left"><a href="https://dl.acm.org/doi/10.1145/3078971.3080545">Nag et al.</a></td>
 		<td align="center" sdval="2017" sdnum="1033;">2017</td>
 		<td align="left">&#10004;</td>
 		<td align="left"><br></td>
@@ -131,7 +131,7 @@ The table is complement of the article **Multimodal Recommendation: Technical Ch
 		<td style="border-right: 1px solid #000000" align="left"><br></td>
 	</tr>
 	<tr>
-		<td style="border-left: 1px solid #000000" height="17" align="left">Han et al.</td>
+		<td style="border-left: 1px solid #000000" height="17" align="left"><a href="https://dl.acm.org/doi/10.1145/3123266.3123394">Han et al.</a></td>
 		<td align="center" sdval="2017" sdnum="1033;">2017</td>
 		<td align="left">&#10004;</td>
 		<td align="left">&#10004;</td>
@@ -146,7 +146,7 @@ The table is complement of the article **Multimodal Recommendation: Technical Ch
 		<td style="border-right: 1px solid #000000" align="left"><br></td>
 	</tr>
 	<tr>
-		<td style="border-left: 1px solid #000000" height="17" align="left">Ying et al.</td>
+		<td style="border-left: 1px solid #000000" height="17" align="left"><a href="https://dl.acm.org/doi/10.1145/3219819.3219890">Ying et al.</a></td>
 		<td align="center" sdval="2018" sdnum="1033;">2018</td>
 		<td align="left">&#10004;</td>
 		<td align="left">&#10004;</td>
@@ -161,7 +161,7 @@ The table is complement of the article **Multimodal Recommendation: Technical Ch
 		<td style="border-right: 1px solid #000000" align="left"><br></td>
 	</tr>
 	<tr>
-		<td style="border-left: 1px solid #000000" height="17" align="left">Wang et al.</td>
+		<td style="border-left: 1px solid #000000" height="17" align="left"><a href="https://doi.org/10.18653/v1/d18-1373">Wang et al.</a></td>
 		<td align="center" sdval="2018" sdnum="1033;">2018</td>
 		<td align="left">&#10004;</td>
 		<td align="left">&#10004;</td>
@@ -176,7 +176,7 @@ The table is complement of the article **Multimodal Recommendation: Technical Ch
 		<td style="border-right: 1px solid #000000" align="left"><br></td>
 	</tr>
 	<tr>
-		<td style="border-left: 1px solid #000000" height="17" align="left">Wei et al.</td>
+		<td style="border-left: 1px solid #000000" height="17" align="left"><a href="https://doi.org/10.1145/3343031.3351034">Wei et al.</a></td>
 		<td align="center" sdval="2019" sdnum="1033;">2019</td>
 		<td align="left">&#10004;</td>
 		<td align="left">&#10004;</td>
@@ -191,7 +191,7 @@ The table is complement of the article **Multimodal Recommendation: Technical Ch
 		<td style="border-right: 1px solid #000000" align="left">&#10004;</td>
 	</tr>
 	<tr>
-		<td style="border-left: 1px solid #000000" height="17" align="left">Dong et al.</td>
+		<td style="border-left: 1px solid #000000" height="17" align="left"><a href="https://doi.org/10.1145/3343031.3350905">Dong et al.</a></td>
 		<td align="center" sdval="2019" sdnum="1033;">2019</td>
 		<td align="left">&#10004;</td>
 		<td align="left">&#10004;</td>
@@ -206,7 +206,7 @@ The table is complement of the article **Multimodal Recommendation: Technical Ch
 		<td style="border-right: 1px solid #000000" align="left"><br></td>
 	</tr>
 	<tr>
-		<td style="border-left: 1px solid #000000" height="17" align="left">Chen et al.</td>
+		<td style="border-left: 1px solid #000000" height="17" align="left"><a href="https://doi.org/10.1145/3292500.3330652">Chen et al.</a></td>
 		<td align="center" sdval="2019" sdnum="1033;">2019</td>
 		<td align="left">&#10004;</td>
 		<td align="left">&#10004;</td>
@@ -221,7 +221,7 @@ The table is complement of the article **Multimodal Recommendation: Technical Ch
 		<td style="border-right: 1px solid #000000" align="left"><br></td>
 	</tr>
 	<tr>
-		<td style="border-left: 1px solid #000000" height="17" align="left">Sun et al.</td>
+		<td style="border-left: 1px solid #000000" height="17" align="left"><a href="https://doi.org/10.1145/3340531.3411947">Sun et al.</a></td>
 		<td align="center" sdval="2020" sdnum="1033;">2020</td>
 		<td align="left">&#10004;</td>
 		<td align="left">&#10004;</td>
@@ -236,7 +236,7 @@ The table is complement of the article **Multimodal Recommendation: Technical Ch
 		<td style="border-right: 1px solid #000000" align="left"><br></td>
 	</tr>
 	<tr>
-		<td style="border-left: 1px solid #000000" height="17" align="left">Chen et al.</td>
+		<td style="border-left: 1px solid #000000" height="17" align="left"><a href="https://doi.org/10.24963/ijcai.2020/339">Chen et al.</a></td>
 		<td align="center" sdval="2020" sdnum="1033;">2020</td>
 		<td align="left">&#10004;</td>
 		<td align="left">&#10004;</td>
@@ -251,7 +251,7 @@ The table is complement of the article **Multimodal Recommendation: Technical Ch
 		<td style="border-right: 1px solid #000000" align="left"><br></td>
 	</tr>
 	<tr>
-		<td style="border-left: 1px solid #000000" height="17" align="left">Min et al.</td>
+		<td style="border-left: 1px solid #000000" height="17" align="left"><a href0"https://doi.org/10.1109/TMM.2019.2958761">Min et al.</a></td>
 		<td align="center" sdval="2020" sdnum="1033;">2020</td>
 		<td align="left">&#10004;</td>
 		<td align="left">&#10004;</td>
@@ -266,7 +266,7 @@ The table is complement of the article **Multimodal Recommendation: Technical Ch
 		<td style="border-right: 1px solid #000000" align="left"><br></td>
 	</tr>
 	<tr>
-		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000" height="17" align="left">Yang et al.</td>
+		<td style="border-bottom: 1px solid #000000; border-left: 1px solid #000000" height="17" align="left"><a href="https://aaai.org/ojs/index.php/AAAI/article/view/5362">Yang et al.</a></td>
 		<td style="border-bottom: 1px solid #000000" align="center" sdval="2020" sdnum="1033;">2020</td>
 		<td style="border-bottom: 1px solid #000000" align="left">&#10004;</td>
 		<td style="border-bottom: 1px solid #000000" align="left">&#10004;</td>
