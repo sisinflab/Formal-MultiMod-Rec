@@ -42,7 +42,7 @@ The table is complement of the article **Multimodal Recommendation: Technical Ch
 	<tr>
 		<td style="border-left: 1px solid #000000" height="17" align="left">Ferracani et al.</td>
 		<td align="center" sdval="2015" sdnum="1033;">2015</td>
-		<td align="left">[x]</td>
+		<td align="left">&#x25a2;</td>
 		<td align="left">[x]</td>
 		<td align="left"><br></td>
 		<td align="left"><br></td>
