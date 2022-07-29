@@ -1,8 +1,8 @@
-# Multimodal Recommendation: Technical Challenges and Applications for Social Good
+# A Formal Multimodal Framework for Personalized Multimedia Recommendation
 
 A table of multimodal recommender systems publications. This page will be ****periodically**** updated to include recent works.
 
-The table is taken from **Multimodal Recommendation: Technical Challenges andApplications for Social Good** submitted at ACM Multimedia 2021 in the Brave New ideas Track.
+The table is taken from **A Formal Multimodal Framework for Personalized Multimedia Recommendation** submitted at IEEE Transactions on Multimedia.
 
 
 
