@@ -14,7 +14,7 @@ The table is taken from **A Formal Multimodal Framework for Personalized Multime
 		arise when modelling a multimodal recommender system, as observed in the
 literature. HFE: Handcrafted Feature Extraction, TFE: Trainable Feature Extraction, MMR: Multi-Modal Representation.</caption>
 	<colgroup width="120"></colgroup>
-	<colgroup span="4" width="85"></colgroup>
+	<colgroup span="5" width="85"></colgroup>
 	<colgroup width="118"></colgroup>
 	<colgroup span="2" width="85"></colgroup>
 	<colgroup span="2" width="146"></colgroup>
@@ -22,7 +22,7 @@ literature. HFE: Handcrafted Feature Extraction, TFE: Trainable Feature Extracti
 	<tr>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000" rowspan=3 height="51" align="center" valign=middle><b>Papers</b></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" rowspan=3 align="center" valign=middle><b>Year</b></td>
-		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" colspan=4 align="center"><b>Modalities (<i>Which?</i>)</b></td>
+		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" colspan=3 align="center"><b>Modalities (<i>Which?</i>)</b></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000" colspan=5 align="center" valign=middle><b>Feature Elaboration (<i>How?</i>)</b></td>
 		<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-right: 1px solid #000000" colspan=2 align="center"><b>Fusion (<i>When</i>?)</b></td>
 		</tr>
