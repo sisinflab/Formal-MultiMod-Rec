@@ -14,7 +14,7 @@ The table is taken from **A Formal Multimodal Framework for Personalized Multime
 		arise when modelling a multimodal recommender system, as observed in the
 literature. HFE: Handcrafted Feature Extraction, TFE: Trainable Feature Extraction, MMR: Multi-Modal Representation.</caption>
 	<colgroup width="120"></colgroup>
-	<colgroup span="5" width="85"></colgroup>
+	<colgroup span="4" width="85"></colgroup>
 	<colgroup width="118"></colgroup>
 	<colgroup span="2" width="85"></colgroup>
 	<colgroup span="2" width="146"></colgroup>
