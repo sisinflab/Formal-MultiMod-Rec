@@ -465,7 +465,7 @@ literature. HFE: Handcrafted Feature Extraction, TFE: Trainable Feature Extracti
 	<tr>
 		<td style="border-left: 1px solid #000000" height="17" align="left"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0957417421010903?via%3Dihub">Lei et al.</a></td>
 		<td align="center" sdval="2021" sdnum="1033;">2021</td>
-		<td align="left"></td>
+		<td align="left">&#10004;</td>
 		<td align="left">&#10004;</td>
 		<td align="left">&#10004;</td>
 		<td align="left">&#10004;</td>
