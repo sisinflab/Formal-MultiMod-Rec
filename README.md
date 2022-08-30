@@ -8,61 +8,6 @@ The table is taken from **A Formal Multimodal Framework for Personalized Multime
 
 ## Review
 
-::: table*
-::: adjustbox
-width=, center
-
-::: tabular
-llcccccccccc **Papers** & & & &\
-(rl)3-5(lr)6-10(lr)11-12
-
-& & & & & & & & &\
-(rl)7-8(rl)9-10 & & & & & & & & & & &\
-
-@DBLP:conf/mm/FerracaniPBMB15 & 2015 & & & & & & & & &\
-@DBLP:conf/bigdataconf/JiaWLXXZ15 & 2015 & & & & & & & &\
-@DBLP:journals/mta/LiPGCZ15 & 2015 & & & & & & & &\
-@DBLP:journals/mta/NieLZS16 & 2016 & & & & & & & & &\
-@DBLP:conf/mm/ChenHK16 & 2016 & & & & & & & &\
-@DBLP:conf/mm/HanWJD17 & 2017 & & & & & & & & & &\
-@DBLP:conf/recsys/OramasNSS17 & 2017 & & & & & & & & & &\
-@DBLP:conf/ijcai/ZhangWHHG17 & 2017 & & & & & & & & & &\
-@DBLP:conf/kdd/YingHCEHL18 & 2018 & & & & & & & & &\
-@DBLP:conf/emnlp/WangNL18 & 2018 & & & & & & & & &\
-@DBLP:conf/mm/LiuCSWNK19 & 2019 & & & & & & & & &\
-@DBLP:conf/sigir/ChenCXZ0QZ19 & 2019 & & & & & & & &\
-@DBLP:conf/mm/WeiWN0HC19 & 2019 & & & & & & & & & &\
-@DBLP:journals/tois/ChengCZKK19 & 2019 & & & & & & & &\
-@DBLP:conf/mm/DongSFJXN19 & 2019 & & & & & & & & & &\
-@DBLP:conf/kdd/ChenHXGGSLPZZ19 & 2019 & & & & & & & & &\
-@DBLP:conf/mm/YuSZZJ19 & 2019 & & & & & & & & & &\
-@DBLP:journals/tkde/CuiWLZW20 & 2020 & & & & & & & & & &\
-@DBLP:conf/mm/WeiWN0C20 & 2020 & & & & & & & & & &\
-@DBLP:conf/cikm/SunCZWZZWZ20 & 2020 & & & & & & & & &\
-@DBLP:conf/ijcai/Chen020 & 2020 & & & & & & & & &\
-@DBLP:journals/tmm/MinJJ20 & 2020 & & & & & & & & &\
-@DBLP:conf/ijcnn/Shen0LWC20 & 2020 & & & & & & & & & &\
-@DBLP:conf/aaai/YangDW20 & 2020 & & & & & & & & & &\
-@DBLP:journals/ipm/TaoWWHHC20 & 2020 & & & & & & & & & &\
-@DBLP:journals/tcss/YangWLLGDW20 & 2020 & & & & & & & & & &\
-@DBLP:journals/tmm/SangXQMLW21 & 2021 & & & & & & & & & &\
-@DBLP:conf/mm/LiuYLWTZSM21 & 2021 & & & & & & & & & &\
-@DBLP:conf/mm/Zhang00WWW21 & 2021 & & & & & & & & & &\
-@DBLP:conf/bigmm/VaswaniAA21 & 2021 & & & & & & & & & &\
-@DBLP:journals/eswa/LeiHZSZ21 & 2021 & & & & & & & & &\
-@DBLP:journals/tomccap/WangDJJSN21 & 2021 & & & & & & & & &\
-@DBLP:journals/tmm/ZhanLASDK22 & 2022 & & & & & & & & &\
-@DBLP:conf/sigir/WuWQZHX22 & 2022 & & & & & & & & & &\
-@DBLP:journals/tmm/YiC22 & 2022 & & & & & & & & & &\
-@DBLP:conf/sigir/Yi0OM22 & 2022 & & & & & & & & & &\
-@DBLP:conf/mir/LiuMSO022 & 2022 & & & & & & & & & &\
-:::
-:::
-
-[]{#tab:papers label="tab:papers"}
-:::
-
-
 
 <table cellspacing="0" border="0">
 	<caption>Table 1. Overview of the core questions 
