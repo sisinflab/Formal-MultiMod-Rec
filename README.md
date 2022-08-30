@@ -54,7 +54,6 @@ literature. HFE: Handcrafted Feature Extraction, TFE: Trainable Feature Extracti
 		<td align="left"><br></td>
 		<td align="left">&#10004;</td>
 		<td align="left"><br></td>
-		<td align="left"><br></td>
 		<td style="border-right: 1px solid #000000" align="left"><br></td>
 	</tr>
 </table>
