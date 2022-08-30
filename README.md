@@ -479,9 +479,9 @@ literature. HFE: Handcrafted Feature Extraction, TFE: Trainable Feature Extracti
 	<tr>
 		<td style="border-left: 1px solid #000000" height="17" align="left"><a href="https://dl.acm.org/doi/10.1145/3418211">Wang et al.</a></td>
 		<td align="center" sdval="2021" sdnum="1033;">2021</td>
+		<td align="left">&#10004;</td>
+		<td align="left">&#10004;</td>
 		<td align="left"></td>
-		<td align="left">&#10004;</td>
-		<td align="left">&#10004;</td>
 		<td align="left"></td>
 		<td align="left">&#10004;</td>
 		<td align="left"></td>
@@ -493,9 +493,9 @@ literature. HFE: Handcrafted Feature Extraction, TFE: Trainable Feature Extracti
 	<tr>
 		<td style="border-left: 1px solid #000000" height="17" align="left"><a href="https://ieeexplore.ieee.org/document/9354945">Zhan et al.</a></td>
 		<td align="center" sdval="2022" sdnum="1033;">2022</td>
+		<td align="left">&#10004;</td>
+		<td align="left">&#10004;</td>
 		<td align="left"></td>
-		<td align="left">&#10004;</td>
-		<td align="left">&#10004;</td>
 		<td align="left"></td>
 		<td align="left">&#10004;</td>
 		<td align="left"></td>
