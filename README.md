@@ -8,11 +8,11 @@ Official repository for the paper _**Formalizing Multimedia Recommendation throu
 
 | Papers                                        | Year | Title |
 | --------------------------------------------- | ---- | ------ | 
-| [Ferracani et al.](https://dl.acm.org/doi/10.1145/2733373.2807982) | 2015 | |
-| [Jia et al.](https://ieeexplore.ieee.org/document/7363830)   |      |  |
-| [Li et al.](https://link.springer.com/article/10.1007/s11042-013-1825-x)         |      | |
+| [Ferracani et al.](https://dl.acm.org/doi/10.1145/2733373.2807982) | 2015 | A System for Video Recommendation using Visual Saliency, Crowdsourced and Automatic Annotations |
+| [Jia et al.](https://ieeexplore.ieee.org/document/7363830)   |      | Multi-modal learning for video recommendation based on mobile application usage |
+| [Li et al.](https://link.springer.com/article/10.1007/s11042-013-1825-x)         |      | Video recommendation based on multi-modal information and multiple kernel |
 | [Nie et al.](https://doi.org/10.1007/s11042-014-2339-x)        | 2016 | |
-| [Chen et al.](https://doi.org/10.1145/2964284.2964291)            |      | |
+| [Chen et al.](https://doi.org/10.1145/2964284.2964291)            |      | Quality models for venue recommendation in location-based social network |
 | [Han et al.](https://doi.org/10.1145/3123266.3123394)            | 2017 | |
 | [Oramas et al.](https://doi.org/10.1145/3125486.3125492)    |      | |
 | [Zhang et al.](https://doi.org/10.24963/ijcai.2017/478)      |  |
