@@ -13,7 +13,7 @@ Official repository for the paper _**Formalizing Multimedia Recommendation throu
 - Tommaso Di Noia (tommaso.dinoia@poliba.it)
 - Eugenio Di Sciascio (eugenio.disciascio@poliba.it)
 
-* _Work performed while at Politecnico di Bari before joining Amazon._
+\* _Work performed while at Politecnico di Bari before joining Amazon._
 
 ## Review
 
