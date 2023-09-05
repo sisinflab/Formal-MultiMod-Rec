@@ -2,10 +2,6 @@
 
 A table of multimodal recommender systems publications. This page will be ****periodically**** updated to include recent works.
 
-The table is taken from **A Formal Multimodal Framework for Personalized Multimedia Recommendation** submitted at IEEE Transactions on Multimedia.
-
-
-
 ## Review
 
 
