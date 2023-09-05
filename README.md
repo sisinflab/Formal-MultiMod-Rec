@@ -9,9 +9,11 @@ Official repository for the paper _**Formalizing Multimedia Recommendation throu
 - Daniele Malitesta (daniele.malitesta@poliba.it)
 - Giandomenico Cornacchia (giandomenico.cornacchia@poliba.it)
 - Claudio Pomo (claudio.pomo@poliba.it)
-- Felice Antonio Merra (felmerra@amazon.de) _Work performed while at Politecnico di Bari before joining Amazon._
+- Felice Antonio Merra* (felmerra@amazon.de)
 - Tommaso Di Noia (tommaso.dinoia@poliba.it)
 - Eugenio Di Sciascio (eugenio.disciascio@poliba.it)
+
+* _Work performed while at Politecnico di Bari before joining Amazon._
 
 ## Review
 
