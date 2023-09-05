@@ -2,7 +2,7 @@
 
 ## Review
 
-| Papers                                        | Year | Visual | Textual | Audio | HFE | Pretrained | End-to-End | Joint | Coordinate | Early | Late |
+| Papers                                        | Year | Visual | Textual | Audio | HFE | TFE Pretrained | TFE End-to-End | MMR Joint | MMR Coordinate | Fusion Early | Fusion Late |
 | --------------------------------------------- | ---- | ------ | ------- | ----- | --- | ---------- | ---------- | ----- | ---------- | ----- | ---- |
 | [Ferracani et al.](https://dl.acm.org/doi/10.1145/2733373.2807982) | 2015 | ✔️    | ✔️      |       | &#10060; | ✔️        |            | ✔️    |            | &#10060; | &#10060; |
 | [Jia et al.](https://ieeexplore.ieee.org/document/7363830)   |      | ✔️    | ✔️      |       | ✔️  |            |            | ✔️    |            | &#10060; | &#10060; |
