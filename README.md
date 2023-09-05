@@ -1,5 +1,9 @@
 # Formalizing Multimedia Recommendation through Multimodal Deep Learning
 
+<img src="https://github.com/sisinflab/Formal-MultiMod-Rec/blob/main/framework.png?raw=true"  width="1000">
+
+Official repository for the paper _**Formalizing Multimedia Recommendation through Multimodal Deep Learning**_, under review at TORS.
+
 ## Review
 
 | Papers                                        | Year | Visual | Textual | Audio | HFE | TFE Pretrained | TFE End-to-End | MMR Joint | MMR Coordinate | Fusion Early | Fusion Late |
