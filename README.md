@@ -1,6 +1,6 @@
 # Formalizing Multimedia Recommendation through Multimodal Deep Learning
 
-<img src="https://github.com/sisinflab/Formal-MultiMod-Rec/blob/main/framework.png?raw=true"  width="600">
+<img src="https://github.com/sisinflab/Formal-MultiMod-Rec/blob/main/framework.png?raw=true"  width="1000">
 
 Official repository for the paper _**Formalizing Multimedia Recommendation through Multimodal Deep Learning**_, under review at TORS.
 
