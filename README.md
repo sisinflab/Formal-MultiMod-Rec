@@ -4,6 +4,15 @@
 
 Official repository for the paper _**Formalizing Multimedia Recommendation through Multimodal Deep Learning**_, under review at TORS.
 
+**Authors**
+
+Daniele Malitesta (daniele.malitesta@poliba.it)
+Giandomenico Cornacchia (giandomenico.cornacchia@poliba.it)
+Claudio Pomo (claudio.pomo@poliba.it)
+Felice Antonio Merra (felmerra@amazon.de)
+Tommaso Di Noia (tommaso.dinoia@poliba.it)
+Eugenio Di Sciascio (eugenio.disciascio@poliba.it)
+
 ## Review
 
 | Paper                                         | Year | Title |
