@@ -21,37 +21,36 @@ Official repository for the paper _**Formalizing Multimedia Recommendation throu
 | [Liu et al.](https://doi.org/10.1145/3343031.3350953)           | 2019 | User Diverse Preference Modeling by Multimodal Attentive Metric Learning |
 | [Chen et al.](https://doi.org/10.1145/3331184.3331254)     |      | Personalized Fashion Recommendation with Visual Explanations based on Multimodal Attention Network: Towards Visually Explainable Recommendation |
 | [Wei et al.](https://doi.org/10.1145/3343031.3351034)           |    |  MMGCN: Multi-modal Graph Convolution Network for Personalized Recommendation of Micro-video |
-| [Sun et al.](https://dl.acm.org/doi/abs/10.1145/3340531.3411947) | |  Multi-modal Knowledge Graphs for Recommender Systems |
-| [Cheng et al.](https://doi.org/10.1145/3343031.3351034)   |      |  |
-| [Dong et al.](https://doi.org/10.1145/3343031.3350905)         |      | |
-| [Chen et al.](https://doi.org/10.1145/3292500.3330652)    |      |  |
-| [Yu et al.](https://doi.org/10.1145/3343031.3350935)              | 2020 | |
-| [Cui et al.](https://ieeexplore.ieee.org/document/8534409)       |      |  |
-| [Wei et al.](https://doi.org/10.1145/3394171.3413556)            |      |  |
-| [Sun et al.](https://doi.org/10.1145/3340531.3411947)        |      |  |
-| [Chen et al.](https://doi.org/10.24963/ijcai.2020/339)          |      |  |
-| [Min et al.](https://ieeexplore.ieee.org/document/8930090)         |      |  |
-| [Shen et al.](https://ieeexplore.ieee.org/document/9206894)       |      |  |
-| [Yang et al.](https://ojs.aaai.org/index.php/AAAI/article/view/5362)          |      |  |
-| [Tao et al.](https://www.sciencedirect.com/science/article/abs/pii/S0306457320300182?via%3Dihub)       |      |   |
-| [Yang et al.](https://ieeexplore.ieee.org/document/9082813)   |      |   |
-| [Sang et al.](https://ieeexplore.ieee.org/document/9136871)     | 2021 |   |
-| [Liu et al.](https://doi.org/10.1145/3474085.3475709)         |      |   |
-| [Zhang et al.](https://doi.org/10.1145/3474085.3475259)       |      |   |
-| [Vaswani et al.](https://ieeexplore.ieee.org/document/9643207)    |      |      |
-| [Lei et al.](https://www.sciencedirect.com/science/article/pii/S0957417421010903)       | | | 
-| [Wang et al.](https://dl.acm.org/doi/abs/10.1145/3418211) |      |  |
-| [Zhan et al.](https://ieeexplore.ieee.org/document/9354945)     | 2022 |  |
-| [Wu et al.](https://dl.acm.org/doi/abs/10.1145/3477495.3531896)           |      |  |
-| [Yi et al.](https://ieeexplore.ieee.org/document/9535249)            |      | |
-| [Yi et al.](https://dl.acm.org/doi/abs/10.1145/3477495.3532027)            |      | |
-| [Liu et al.](https://dl.acm.org/doi/abs/10.1145/3512527.3531378)           |      |  |
-| [Mu et al.](https://dl.acm.org/doi/abs/10.1145/3503161.3548119)              |      |   |
-| [Chen et al.](https://dl.acm.org/doi/abs/10.1145/3503161.3548399)          |      |  |
-| [Yi et al.](https://arxiv.org/abs/2211.06924)   |      |  |
-| [Wang et al.](https://ieeexplore.ieee.org/document/9662655)    | 2023 |   |
-| [Wei et al.](https://dl.acm.org/doi/10.1145/3543507.3583206)            |      | |
-| [Zhou et al.](https://dl.acm.org/doi/10.1145/3543507.3583251)      |      |  |
+| [Cheng et al.](https://dl.acm.org/doi/10.1145/3291060)   |      | MMALFM: Explainable Recommendation by Leveraging Reviews and Images |
+| [Dong et al.](https://doi.org/10.1145/3343031.3350905)         |      |Personalized Capsule Wardrobe Creation with Garment and User Modeling |
+| [Chen et al.](https://doi.org/10.1145/3292500.3330652)    |      |POG: Personalized Outfit Generation for Fashion Recommendation at Alibaba iFashion  |
+| [Yu et al.](https://doi.org/10.1145/3343031.3350935)              | 2020 | Vision-Language Recommendation via Attribute Augmented Multimodal Reinforcement Learning|
+| [Cui et al.](https://ieeexplore.ieee.org/document/8534409)       |      | MV-RNN: A Multi-View Recurrent Neural Network for Sequential Recommendation |
+| [Wei et al.](https://doi.org/10.1145/3394171.3413556)            |      | Graph-Refined Convolutional Network for Multimedia Recommendation with Implicit Feedback |
+| [Sun et al.](https://doi.org/10.1145/3340531.3411947)        |      |Multi-modal Knowledge Graphs for Recommender Systems  |
+| [Chen et al.](https://doi.org/10.24963/ijcai.2020/339)          |      | Neural Tensor Model for Learning Multi-Aspect Factors in Recommender Systems |
+| [Min et al.](https://ieeexplore.ieee.org/document/8930090)         |      | Food Recommendation: Framework, Existing Solutions, and Challenges |
+| [Shen et al.](https://ieeexplore.ieee.org/document/9206894)       |      | Enhancing Music Recommendation with Social Media Content: an Attentive Multimodal Autoencoder Approach |
+| [Yang et al.](https://ojs.aaai.org/index.php/AAAI/article/view/5362)          |      | Learning to Match on Graph for Fashion Compatibility Modeling |
+| [Tao et al.](https://www.sciencedirect.com/science/article/abs/pii/S0306457320300182?via%3Dihub)       |      |  MGAT: Multimodal Graph Attention Network for Recommendation |
+| [Yang et al.](https://ieeexplore.ieee.org/document/9082813)   |      | AMNN: Attention-Based Multimodal Neural Network Model for Hashtag Recommendation  |
+| [Sang et al.](https://ieeexplore.ieee.org/document/9136871)     | 2021 | Context-Dependent Propagating-Based Video Recommendation in Multimodal Heterogeneous Information Networks  |
+| [Liu et al.](https://doi.org/10.1145/3474085.3475709)         |      | Pre-training Graph Transformer with Multimodal Side Information for Recommendation  |
+| [Zhang et al.](https://doi.org/10.1145/3474085.3475259)       |      |  Mining Latent Structures for Multimedia Recommendation |
+| [Vaswani et al.](https://ieeexplore.ieee.org/document/9643207)    |      |   Multimodal Fusion Based Attentive Networks for Sequential Music Recommendation   |
+| [Lei et al.](https://www.sciencedirect.com/science/article/pii/S0957417421010903)       |  |  Is the suggested food your desired?: Multi-modal recipe recommendation with demand-based knowledge graph|  
+| [Wang et al.](https://dl.acm.org/doi/abs/10.1145/3418211) |      | Market2Dish: Health-aware Food Recommendation |
+| [Zhan et al.](https://ieeexplore.ieee.org/document/9354945)     | 2022 | A3-FKG: Attentive Attribute-Aware Fashion Knowledge Graph for Outfit Preference Prediction |
+| [Wu et al.](https://dl.acm.org/doi/abs/10.1145/3477495.3531896)           |      | MM-Rec: Visiolinguistic Model Empowered Multimodal News Recommendation |
+| [Yi et al.](https://ieeexplore.ieee.org/document/9535249)            |      | Multi-Modal Variational Graph Auto-Encoder for Recommendation Systems |
+| [Yi et al.](https://dl.acm.org/doi/abs/10.1145/3477495.3532027)            |      | Multi-modal Graph Contrastive Learning for Micro-video Recommendation |
+| [Liu et al.](https://dl.acm.org/doi/abs/10.1145/3512527.3531378)           |      | Multi-Modal Contrastive Pre-training for Recommendation |
+| [Mu et al.](https://dl.acm.org/doi/abs/10.1145/3503161.3548119)              |      |  Learning Hybrid Behavior Patterns for Multimedia Recommendation |
+| [Chen et al.](https://dl.acm.org/doi/abs/10.1145/3503161.3548399)          |      | Breaking Isolation: Multimodal Graph Fusion for Multimedia Recommendation by Edge-wise Modulation |
+| [Yi et al.](https://arxiv.org/abs/2211.06924)   |      | A Tale of Two Graphs: Freezing and Denoising Graph Structures for Multimodal Recommendation  |
+| [Wang et al.](https://ieeexplore.ieee.org/document/9662655)    | 2023 |  DualGNN: Dual Graph Neural Network for Multimedia Recommendation |
+| [Wei et al.](https://dl.acm.org/doi/10.1145/3543507.3583206)            |      | Multi-Modal Self-Supervised Learning for Recommendation |
+| [Zhou et al.](https://dl.acm.org/doi/10.1145/3543507.3583251)      |      | Bootstrap Latent Representations for Multi-modal Recommendation |
 
 
 ## Benchmarking
