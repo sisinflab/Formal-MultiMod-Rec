@@ -1,0 +1,6 @@
+-f https://data.pyg.org/whl/torch-1.13.0+cu116.html
+torch_geometric
+torch-scatter
+torch_sparse
+torch_cluster
+torch_spline_conv
