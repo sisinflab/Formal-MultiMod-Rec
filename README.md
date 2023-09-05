@@ -67,7 +67,7 @@ Official repository for the paper _**Formalizing Multimedia Recommendation throu
 | FREEDOM  | 0.0560        | 0.0365      | 0.1493     | 0.1922      | 0.1875      | 79.12%      | 0.0884        | 0.0469      | 0.1282     | 0.2439      | 0.2080      | 90.64%      |
 
 
-**[Toys](https://github.com/sisinflab/Formal-MultiMod-Rec/blob/main/config_files/toys_results.yml)**
+**Toys** ([best results](https://github.com/sisinflab/Formal-MultiMod-Rec/blob/main/config_files/toys_results.yml))
 
 | Models   |   Recall@10   | nDCG@10     | EFD@10     |     Gini@10 | APLT@10     | iCov@10     |     Recall@20 |     nDCG@20 |     EFD@20 |     Gini@20 |     APLT@20 |     iCov@20 |
 |----------|---------------|-------------|------------|-------------|-------------|-------------|---------------|-------------|------------|-------------|-------------|-------------|
@@ -78,7 +78,7 @@ Official repository for the paper _**Formalizing Multimedia Recommendation throu
 | BM3      | 0.0613        | 0.0393      | 0.1582     | 0.0776      | 0.0486      | 56.23%      | 0.0901        | 0.0478      | 0.1270     | 0.1154      | 0.0658      | 73.50%      |
 | FREEDOM  | **0.0870**    | **0.0548**  | **0.2284** | 0.1474      | 0.0756      | 62.09%      | **0.1249**    | **0.0660**  | **0.1820** | 0.2007      | 0.0951      | 78.42%      |
 
-**[Beauty](https://github.com/sisinflab/Formal-MultiMod-Rec/blob/main/config_files/beauty_results.yml)**
+**Beauty** ([best results](https://github.com/sisinflab/Formal-MultiMod-Rec/blob/main/config_files/beauty_results.yml))
 
 | Models   |   Recall@10   | nDCG@10     | EFD@10     |     Gini@10 | APLT@10     | iCov@10     |     Recall@20 |     nDCG@20 |     EFD@20 |     Gini@20 |     APLT@20 |     iCov@20 |
 |----------|---------------|-------------|------------|-------------|-------------|-------------|---------------|-------------|------------|-------------|-------------|-------------|
@@ -89,7 +89,7 @@ Official repository for the paper _**Formalizing Multimedia Recommendation throu
 | BM3      | 0.0713        | 0.0443      | 0.1831     | 0.0245      | 0.0179      | 32.31%      | 0.1051        | 0.0545      | 0.1490     | 0.0414      | 0.0228      | 48.75%      |
 | FREEDOM  | _0.0864_      | _0.0539_    | **0.2279** | 0.0921      | 0.0486      | 55.89%      | **0.1286**    | **0.0666**  | **0.1868** | 0.1359      | 0.0653      | 72.96%      |
 
-**[Sports](https://github.com/sisinflab/Formal-MultiMod-Rec/blob/main/config_files/sports_results.yml)**
+**Sports** ([best results](https://github.com/sisinflab/Formal-MultiMod-Rec/blob/main/config_files/sports_results.yml))
 
 | Models   |   Recall@10   | nDCG@10     | EFD@10     |     Gini@10 | APLT@10     | iCov@10     |     Recall@20 |     nDCG@20 |     EFD@20 |     Gini@20 |     APLT@20 |     iCov@20 |
 |----------|---------------|-------------|------------|-------------|-------------|-------------|---------------|-------------|------------|-------------|-------------|-------------|
@@ -100,7 +100,7 @@ Official repository for the paper _**Formalizing Multimedia Recommendation throu
 | BM3      | 0.0548        | 0.0349      | 0.1372     | 0.0776      | 0.0283      | 59.13%      | 0.0825        | 0.0430      | 0.1118     | 0.1120      | 0.0385      | 76.75%      |
 | FREEDOM  | _0.0603_      | **0.0375**  | **0.1494** | 0.0621      | 0.0319      | 48.37%      | **0.0911**    | **0.0465**  | **0.1219** | 0.0926      | 0.0442      | 65.81%      |
 
-**[Clothing](https://github.com/sisinflab/Formal-MultiMod-Rec/blob/main/config_files/clothing_results.yml)**
+**Clothing** ([best results](https://github.com/sisinflab/Formal-MultiMod-Rec/blob/main/config_files/clothing_results.yml))
 
 | Models   |   Recall@10   | nDCG@10     | EFD@10     |     Gini@10 | APLT@10     | iCov@10     |     Recall@20 |     nDCG@20 |     EFD@20 |     Gini@20 |     APLT@20 |     iCov@20 |
 |----------|---------------|-------------|------------|-------------|-------------|-------------|---------------|-------------|------------|-------------|-------------|-------------|
