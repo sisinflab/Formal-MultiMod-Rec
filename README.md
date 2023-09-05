@@ -20,7 +20,8 @@ Official repository for the paper _**Formalizing Multimedia Recommendation throu
 | [Wang et al.](https://aclanthology.org/D18-1373/)         |      | LRMM: Learning to Recommend with Missing Modalities |
 | [Liu et al.](https://doi.org/10.1145/3343031.3350953)           | 2019 | User Diverse Preference Modeling by Multimodal Attentive Metric Learning |
 | [Chen et al.](https://doi.org/10.1145/3331184.3331254)     |      | Personalized Fashion Recommendation with Visual Explanations based on Multimodal Attention Network: Towards Visually Explainable Recommendation |
-| [Wei et al.](https://doi.org/10.1145/3343031.3351034)           |    |   |
+| [Wei et al.](https://doi.org/10.1145/3343031.3351034)           |    |  MMGCN: Multi-modal Graph Convolution Network for Personalized Recommendation of Micro-video |
+| [Sun et al.](https://dl.acm.org/doi/abs/10.1145/3340531.3411947) | |  Multi-modal Knowledge Graphs for Recommender Systems |
 | [Cheng et al.](https://doi.org/10.1145/3343031.3351034)   |      |  |
 | [Dong et al.](https://doi.org/10.1145/3343031.3350905)         |      | |
 | [Chen et al.](https://doi.org/10.1145/3292500.3330652)    |      |  |
