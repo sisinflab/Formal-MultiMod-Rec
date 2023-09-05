@@ -67,7 +67,7 @@ python -u start_experiments.py --config <dataset_name>_results
 ```
 where dataset_name is one of the datasets in our benchmarks.
 
-
+Note that the results may slightly differ from the ones provided here and in the paper, depending on the machine you are running the experiments on.
 
 **Office** ([best results](https://github.com/sisinflab/Formal-MultiMod-Rec/blob/main/config_files/office_results.yml))
 
