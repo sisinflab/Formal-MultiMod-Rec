@@ -55,7 +55,7 @@ Official repository for the paper _**Formalizing Multimedia Recommendation throu
 
 ## Benchmarking
 
-**[Office](https://github.com/sisinflab/Formal-MultiMod-Rec/blob/main/config_files/office_results.yml)**
+**Office** ([best results](https://github.com/sisinflab/Formal-MultiMod-Rec/blob/main/config_files/office_results.yml))
 
 | Models   |   Recall@10   | nDCG@10     | EFD@10     |     Gini@10 | APLT@10     | iCov@10     |     Recall@20 |     nDCG@20 |     EFD@20 |     Gini@20 |     APLT@20 |     iCov@20 |
 |----------|---------------|-------------|------------|-------------|-------------|-------------|---------------|-------------|------------|-------------|-------------|-------------|
