@@ -6,7 +6,7 @@ Official repository for the paper _**Formalizing Multimedia Recommendation throu
 
 ## Review
 
-| Papers                                        | Year | Title |
+| Paper                                         | Year | Title |
 | --------------------------------------------- | ---- | ------ | 
 | [Ferracani et al.](https://dl.acm.org/doi/10.1145/2733373.2807982) | 2015 | A System for Video Recommendation using Visual Saliency, Crowdsourced and Automatic Annotations |
 | [Jia et al.](https://ieeexplore.ieee.org/document/7363830)   |      | Multi-modal learning for video recommendation based on mobile application usage |
