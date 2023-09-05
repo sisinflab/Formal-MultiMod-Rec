@@ -12,14 +12,14 @@ Official repository for the paper _**Formalizing Multimedia Recommendation throu
 | [Jia et al.](https://ieeexplore.ieee.org/document/7363830)   |      | Multi-modal learning for video recommendation based on mobile application usage |
 | [Li et al.](https://link.springer.com/article/10.1007/s11042-013-1825-x)         |      | Video recommendation based on multi-modal information and multiple kernel |
 | [Nie et al.](https://doi.org/10.1007/s11042-014-2339-x)        | 2016 | Quality models for venue recommendation in location-based social network |
-| [Chen et al.](https://doi.org/10.1145/2964284.2964291)            |      |  |
-| [Han et al.](https://doi.org/10.1145/3123266.3123394)            | 2017 | |
-| [Oramas et al.](https://doi.org/10.1145/3125486.3125492)    |      | |
-| [Zhang et al.](https://doi.org/10.24963/ijcai.2017/478)      |  |
-| [Ying et al.](https://doi.org/10.1145/3219819.3219890)         | 2018 |  |
-| [Wang et al.](https://aclanthology.org/D18-1373/)         |      |  |
-| [Liu et al.](https://doi.org/10.1145/3343031.3350953)           | 2019 |  |
-| [Chen et al.](https://doi.org/10.1145/3331184.3331254)     |      |  |
+| [Chen et al.](https://doi.org/10.1145/2964284.2964291)            |      | Context-aware Image Tweet Modelling and Recommendation |
+| [Han et al.](https://doi.org/10.1145/3123266.3123394)            | 2017 | Learning Fashion Compatibility with Bidirectional LSTMs |
+| [Oramas et al.](https://doi.org/10.1145/3125486.3125492)    |      | A Deep Multimodal Approach for Cold-start Music Recommendation |
+| [Zhang et al.](https://doi.org/10.24963/ijcai.2017/478)      |  | Hashtag Recommendation for Multimodal Microblog Using Co-Attention Network | 
+| [Ying et al.](https://doi.org/10.1145/3219819.3219890)         | 2018 | Graph Convolutional Neural Networks for Web-Scale Recommender Systems |
+| [Wang et al.](https://aclanthology.org/D18-1373/)         |      | LRMM: Learning to Recommend with Missing Modalities |
+| [Liu et al.](https://doi.org/10.1145/3343031.3350953)           | 2019 | User Diverse Preference Modeling by Multimodal Attentive Metric Learning |
+| [Chen et al.](https://doi.org/10.1145/3331184.3331254)     |      | Personalized Fashion Recommendation with Visual Explanations based on Multimodal Attention Network: Towards Visually Explainable Recommendation |
 | [Wei et al.](https://doi.org/10.1145/3343031.3351034)           |    |   |
 | [Cheng et al.](https://doi.org/10.1145/3343031.3351034)   |      |  |
 | [Dong et al.](https://doi.org/10.1145/3343031.3350905)         |      | |
