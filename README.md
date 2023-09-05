@@ -1,5 +1,7 @@
 # Formalizing Multimedia Recommendation through Multimodal Deep Learning
 
+<img src="https://raw.githubusercontent.com/sisinflab/Ducho/main/docs/source/img/framework.pdf"  width="600">
+
 Official repository for the paper _**Formalizing Multimedia Recommendation through Multimodal Deep Learning**_, under review at TORS.
 
 ## Review
