@@ -55,6 +55,12 @@ Official repository for the paper _**Formalizing Multimedia Recommendation throu
 
 ## Benchmarking
 
+First, install all useful dependencies through:
+```
+pip install -r requirements.txt
+pip install -r requirements_torch_geometric.txt
+```
+
 If you want to train again all models, run the following:
 ```
 python -u start_experiments.py --config <dataset_name>
