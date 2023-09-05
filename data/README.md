@@ -7,3 +7,5 @@ Here we provide the Google Drive links to the datasets we adopted for the benchm
 - Beauty: [link](https://drive.google.com/file/d/142EgIQ-eYiw6_WzlaNUq5RXmvrC6HxvQ/view?usp=share_link)
 - Sports: [link](https://drive.google.com/file/d/1CAz9mWQNfD1T_4kp8i_U_HYcgV72c9fU/view?usp=share_link)
 - Clothing: [link](https://drive.google.com/file/d/1xPDKFWLNvjkSAjhyBiJzlSJo0dUAZGik/view?usp=share_link)
+
+Once the download is complete, make sure to unzip the files within this folder. Now, you are all set to run the experiments.
