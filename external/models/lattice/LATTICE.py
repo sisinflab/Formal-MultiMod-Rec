@@ -79,8 +79,6 @@ class LATTICE(RecMixin, BaseRecommenderModel):
         ]
         self.autoset_params()
 
-        self.set_modalities(self._modalities)
-
         self._sampler = csb.Sampler(self._data.i_train_dict, self._seed)
         if self._batch_size < 1:
             self._batch_size = self._num_users
@@ -94,6 +92,15 @@ class LATTICE(RecMixin, BaseRecommenderModel):
                                 sparse_sizes=(self._num_users + self._num_items,
                                               self._num_users + self._num_items))
 
+        for m_id, m in enumerate(self._modalities):
+            self.__setattr__(f'''_side_{m}''',
+                             self._data.side_information.__getattribute__(f'''{self._loaders[m_id]}'''))
+
+        all_multimodal_features = []
+        for m_id, m in enumerate(self._modalities):
+            all_multimodal_features.append(self.__getattribute__(
+                f'''_side_{self._modalities[m_id]}''').object.get_all_features())
+
         self._model = LATTICEModel(
             num_users=self._num_users,
             num_items=self._num_items,
@@ -106,7 +113,7 @@ class LATTICE(RecMixin, BaseRecommenderModel):
             modalities=self._modalities,
             l_m=self._lambda,
             top_k=self._top_k,
-            multimodal_features=self.get_all_features(),
+            multimodal_features=all_multimodal_features,
             adj=self.adj,
             random_seed=self._seed
         )

@@ -89,8 +89,6 @@ class GRCN(RecMixin, BaseRecommenderModel):
         ]
         self.autoset_params()
 
-        self.set_modalities(self._modalities)
-
         np.random.seed(self._seed)
 
         self._sampler = csf.Sampler(self._data.i_train_dict, self._seed)
@@ -121,6 +119,15 @@ class GRCN(RecMixin, BaseRecommenderModel):
                                      col=edge_index[1], sparse_sizes=(self._num_users + self._num_items,
                                                                       self._num_users + self._num_items))
 
+        for m_id, m in enumerate(self._modalities):
+            self.__setattr__(f'''_side_{m}''',
+                             self._data.side_information.__getattribute__(f'''{self._loaders[m_id]}'''))
+
+        all_multimodal_features = []
+        for m_id, m in enumerate(self._modalities):
+            all_multimodal_features.append(self.__getattribute__(
+                f'''_side_{self._modalities[m_id]}''').object.get_all_features())
+
         self._model = GRCNModel(
             num_users=self._num_users,
             num_items=self._num_items,
@@ -136,7 +143,7 @@ class GRCN(RecMixin, BaseRecommenderModel):
             pruning=self._pruning,
             has_act=self._has_act,
             fusion_mode=self._fusion_mode,
-            multimodal_features=self.get_all_features(),
+            multimodal_features=all_multimodal_features,
             adj=self.adj,
             adj_user=self.adj_user,
             rows=row,
