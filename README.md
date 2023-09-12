@@ -15,7 +15,7 @@ Official repository for the paper _**Formalizing Multimedia Recommendation throu
 
 \* _Work performed while at Politecnico di Bari before joining Amazon._
 
-If you wish to cite your paper, here is a reference:
+If you wish to cite our paper, here is a reference:
 
 ```
 @article{DBLP:journals/corr/abs-2309-05273,
