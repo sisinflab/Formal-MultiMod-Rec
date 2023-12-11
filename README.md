@@ -15,6 +15,23 @@ Official repository for the paper _**Formalizing Multimedia Recommendation throu
 
 \* _Work performed while at Politecnico di Bari before joining Amazon._
 
+If you wish to cite our [paper](https://arxiv.org/abs/2309.05273), here is a reference:
+
+```
+@article{DBLP:journals/corr/abs-2309-05273,
+  author       = {Daniele Malitesta and
+                  Giandomenico Cornacchia and
+                  Claudio Pomo and
+                  Felice Antonio Merra and
+                  Tommaso {Di Noia} and
+                  Eugenio {Di Sciascio}},
+  title        = {Formalizing Multimedia Recommendation through Multimodal Deep Learning},
+  journal      = {CoRR},
+  volume       = {abs/2309.05273},
+  year         = {2023}
+}
+```
+
 ## Review
 
 | Paper                                         | Year | Title |
