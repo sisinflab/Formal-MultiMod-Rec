@@ -4,7 +4,12 @@ experiment:
     strategy: fixed
     train_path: ../data/{0}/train.txt
     validation_path: ../data/{0}/val.txt
-    test_path: ../data/{0}/test.txtì
+    test_path: ../data/{0}/test.txt
+    side_information:
+      - dataloader: VisualAttribute
+        visual_features: ../data/{0}/image_feat
+      - dataloader: TextualAttribute
+        textual_features: ../data/{0}/text_feat
   dataset: clothing
   top_k: 20
   evaluation:
@@ -63,6 +68,26 @@ experiment:
       factors: 64
       batch_size: 1024
       normalize: True
+      l_w: [ 1e-5, 1e-2 ]
+      seed: 123
+    external.LightGCNM:
+      meta:
+        hyper_opt_alg: grid
+        verbose: True
+        save_weights: False
+        save_recs: False
+        validation_rate: 10
+        validation_metric: Recall@20
+        restore: False
+      lr: [ 0.0001, 0.0005, 0.001, 0.005, 0.01 ]
+      epochs: 200
+      n_layers: 3
+      factors: 64
+      batch_size: 1024
+      normalize: True
+      aggregation: mean
+      modalities: ('visual','textual')
+      loaders: ('VisualAttribute','TextualAttribute')
       l_w: [ 1e-5, 1e-2 ]
       seed: 123
     external.SGL:
