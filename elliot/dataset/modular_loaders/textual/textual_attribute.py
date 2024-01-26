@@ -14,6 +14,7 @@ class TextualAttribute(AbstractLoader):
         self.item_mapping = {}
         self.textual_features_shape = None
 
+        items = set(str(it) for it in items)
         inner_items = self.check_items_in_folder()
 
         self.users = users
@@ -25,6 +26,7 @@ class TextualAttribute(AbstractLoader):
     def filter(self, users: t.Set[int], items: t.Set[int]):
         self.users = self.users & users
         self.items = self.items & items
+        self.item_mapping = {item: val for val, item in enumerate(self.items)}
 
     def create_namespace(self) -> SimpleNamespace:
         ns = SimpleNamespace()
@@ -42,11 +44,9 @@ class TextualAttribute(AbstractLoader):
         items = set()
         if self.textual_feature_folder_path:
             items_folder = os.listdir(self.textual_feature_folder_path)
-            items = items.union(set([int(f.split('.')[0]) for f in items_folder]))
+            items = items.union(set([f.split('.')[0] for f in items_folder]))
             self.textual_features_shape = np.load(os.path.join(self.textual_feature_folder_path,
-                                                               items_folder[0])).shape[0]
-        if items:
-            self.item_mapping = {item: val for val, item in enumerate(items)}
+                                                               items_folder[0])).shape[-1]
         return items
 
     def get_all_features(self):

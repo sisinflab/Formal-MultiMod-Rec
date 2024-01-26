@@ -23,6 +23,7 @@ class VisualAttribute(AbstractLoader):
         if self.image_size_tuple:
             self.image_size_tuple = literal_eval(self.image_size_tuple)
 
+        items = set(str(it) for it in items)
         inner_items = self.check_items_in_folder()
 
         self.users = users
@@ -34,6 +35,7 @@ class VisualAttribute(AbstractLoader):
     def filter(self, users: t.Set[int], items: t.Set[int]):
         self.users = self.users & users
         self.items = self.items & items
+        self.item_mapping = {item: val for val, item in enumerate(self.items)}
 
     def create_namespace(self) -> SimpleNamespace:
         ns = SimpleNamespace()
@@ -57,25 +59,22 @@ class VisualAttribute(AbstractLoader):
         items = set()
         if self.visual_feature_folder_path:
             items_folder = os.listdir(self.visual_feature_folder_path)
-            items = items.union(set([int(f.split('.')[0]) for f in items_folder]))
+            items = items.union(set([f.split('.')[0] for f in items_folder]))
             self.visual_features_shape = np.load(os.path.join(self.visual_feature_folder_path,
                                                               items_folder[0])).shape[0]
         if self.visual_pca_feature_folder_path:
             items_folder = os.listdir(self.visual_feature_folder_path)
-            items = items.union(set([int(f.split('.')[0]) for f in items_folder]))
+            items = items.union(set([f.split('.')[0] for f in items_folder]))
             self.visual_pca_features_shape = np.load(os.path.join(self.visual_pca_feature_folder_path,
                                                                   items_folder[0])).shape[0]
         if self.visual_feat_map_feature_folder_path:
             items_folder = os.listdir(self.visual_feature_folder_path)
-            items = items.union(set([int(f.split('.')[0]) for f in items_folder]))
+            items = items.union(set([f.split('.')[0] for f in items_folder]))
             self.visual_feat_map_features_shape = np.load(os.path.join(self.visual_feat_map_feature_folder_path,
                                                           items_folder[0])).shape
         if self.images_folder_path:
             items_folder = os.listdir(self.visual_feature_folder_path)
-            items = items.union(set([int(f.split('.')[0]) for f in items_folder]))
-
-        if items:
-            self.item_mapping = {item: val for val, item in enumerate(items)}
+            items = items.union(set([f.split('.')[0] for f in items_folder]))
         return items
 
     def get_all_features(self):
