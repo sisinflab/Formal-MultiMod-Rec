@@ -61,7 +61,7 @@ class VisualAttribute(AbstractLoader):
             items_folder = os.listdir(self.visual_feature_folder_path)
             items = items.union(set([f.split('.')[0] for f in items_folder]))
             self.visual_features_shape = np.load(os.path.join(self.visual_feature_folder_path,
-                                                              items_folder[0])).shape[0]
+                                                              items_folder[0])).shape[-1]
         if self.visual_pca_feature_folder_path:
             items_folder = os.listdir(self.visual_feature_folder_path)
             items = items.union(set([f.split('.')[0] for f in items_folder]))
