@@ -7,9 +7,9 @@ experiment:
     test_path: ../data/{0}/test.tsv
     side_information:
       - dataloader: VisualAttribute
-        visual_features: ../data/{0}/visual_embeddings/transformers/openai/clip-vit-base-patch32/1
+        visual_features: ../data/{0}/visual_embeddings/transformers/openai/clip-vit-base-patch16/1
       - dataloader: TextualAttribute
-        textual_features: ../data/{0}/textual_embeddings/transformers/openai/clip-vit-base-patch32/1
+        textual_features: ../data/{0}/textual_embeddings/transformers/openai/clip-vit-base-patch16/1
   dataset: baby
   top_k: 50
   evaluation:
