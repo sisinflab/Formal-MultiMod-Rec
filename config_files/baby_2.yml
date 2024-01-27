@@ -7,7 +7,9 @@ experiment:
     test_path: ../data/{0}/test.tsv
     side_information:
       - dataloader: VisualAttribute
-        visual_features: ../data/{0}/visual_embeddings_textual_embeddings_concat/transformers/openai/clip-vit-base-patch32/1
+        visual_features: ../data/{0}/visual_embeddings/transformers/openai/clip-vit-base-patch32/1
+      - dataloader: TextualAttribute
+        textual_features: ../data/{0}/textual_embeddings/transformers/openai/clip-vit-base-patch32/1
   dataset: baby
   top_k: 50
   evaluation:
@@ -26,13 +28,13 @@ experiment:
         validation_metric: Recall@20
         restore: False
       lr: [ 0.0001, 0.0005, 0.001, 0.005, 0.01 ]
-      modalities: ('visual',)
+      modalities: ('visual', 'textual')
       epochs: 200
       factors: 64
       batch_size: 1024
       l_w: [ 1e-5, 1e-2 ]
       comb_mod: concat
-      loaders: ('VisualAttribute',)
+      loaders: ('VisualAttribute', 'TextualAttribute')
       seed: 123
     external.BM3:
       meta:
@@ -49,8 +51,8 @@ experiment:
       cl_weight: 2.0
       dropout: 0.3
       n_layers: 2
-      modalities: ('visual',)
-      loaders: ('VisualAttribute',)
+      modalities: ('visual', 'textual')
+      loaders: ('VisualAttribute', 'TextualAttribute')
       epochs: 200
       factors: 64
       lr_sched: (1.0,50)
@@ -73,8 +75,8 @@ experiment:
       n_ui_layers: 2
       top_k: 10
       factors_multimod: 64
-      modalities: ('visual',)
-      loaders: ('VisualAttribute',)
+      modalities: ('visual', 'textual')
+      loaders: ('VisualAttribute', 'TextualAttribute')
       mw: (0.1,0.9)
       drop: 0.8
       lr_sched: (1.0,50)
