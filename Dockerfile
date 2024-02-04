@@ -12,6 +12,7 @@ RUN apt-get update -y && \
     pip install --upgrade pip && \
     git clone https://github.com/sisinflab/Formal-Multimod-Rec.git && \
     pip install -r Formal-Multimod-Rec/requirements.txt && \
+    pip install -r Formal-Multimod-Rec/requirements_torch.txt && \
     pip install -r Formal-Multimod-Rec/requirements_torch_geometric.txt
 
 WORKDIR Formal-Multimod-Rec
