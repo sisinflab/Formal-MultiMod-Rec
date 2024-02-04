@@ -1,0 +1,51 @@
+version: '3'
+
+services:
+  run_recommendation_1:
+    image: sisinflabpoliba/mm-recsys
+    tty: true
+    stdin_open: true
+    environment:
+      - PYTHONPATH=.
+      - CUBLAS_WORKSPACE_CONFIG=:16:8
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [ gpu ]
+    command: bash -c "nvidia-smi && python3 run_split.py && python3 start_benchmarking.py --setting 1"
+    volumes:
+      - ./local:/Formal-Multimod-Rec/data/baby
+      - ./results:/Formal-Multimod-Rec/results
+  run_recommendation_2:
+    image: sisinflabpoliba/mm-recsys
+    tty: true
+    stdin_open: true
+    environment:
+      - PYTHONPATH=.
+      - CUBLAS_WORKSPACE_CONFIG=:16:8
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [ gpu ]
+    command: bash -c "nvidia-smi && python3 run_split.py && python3 start_benchmarking.py --setting 2"
+    volumes:
+      - ./local:/Formal-Multimod-Rec/data/baby
+      - ./results:/Formal-Multimod-Rec/results
+  run_recommendation_3:
+    image: sisinflabpoliba/mm-recsys
+    tty: true
+    stdin_open: true
+    environment:
+      - PYTHONPATH=.
+      - CUBLAS_WORKSPACE_CONFIG=:16:8
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [ gpu ]
+    command: bash -c "nvidia-smi && python3 run_split.py && python3 start_benchmarking.py --setting 3"
+    volumes:
+      - ./local:/Formal-Multimod-Rec/data/baby
+      - ./results:/Formal-Multimod-Rec/results
