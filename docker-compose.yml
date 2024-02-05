@@ -13,7 +13,7 @@ services:
         reservations:
           devices:
             - capabilities: [ gpu ]
-    command: bash -c "nvidia-smi && git pull && python3 run_split.py && python3 start_benchmarking.py --setting 1"
+    command: bash -c "nvidia-smi && git pull && python3.11 run_split.py && python3.11 start_benchmarking.py --setting 1"
     volumes:
       - ../Ducho/local:/Formal-Multimod-Rec/data/baby
       - ./results:/Formal-Multimod-Rec/results
@@ -29,7 +29,7 @@ services:
         reservations:
           devices:
             - capabilities: [ gpu ]
-    command: bash -c "nvidia-smi && git pull && python3 run_split.py && python3 start_benchmarking.py --setting 2"
+    command: bash -c "nvidia-smi && git pull && python3.11 run_split.py && python3.11 start_benchmarking.py --setting 2"
     volumes:
       - ../Ducho/local:/Formal-Multimod-Rec/data/baby
       - ./results:/Formal-Multimod-Rec/results
@@ -45,7 +45,7 @@ services:
         reservations:
           devices:
             - capabilities: [ gpu ]
-    command: bash -c "nvidia-smi && git pull && python3 run_split.py && python3 start_benchmarking.py --setting 3"
+    command: bash -c "nvidia-smi && git pull && python3.11 run_split.py && python3.11 start_benchmarking.py --setting 3"
     volumes:
       - ../Ducho/local:/Formal-Multimod-Rec/data/baby
       - ./results:/Formal-Multimod-Rec/results
