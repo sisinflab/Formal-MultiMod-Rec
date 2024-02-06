@@ -15,7 +15,7 @@ services:
             - capabilities: [ gpu ]
     command: bash -c "nvidia-smi && git pull && python3.11 run_split.py && python3.11 start_benchmarking.py --setting 1"
     volumes:
-      - ../Ducho/local:/Formal-Multimod-Rec/data/baby
+      - ../Ducho/local/data/demo_recsys:/Formal-Multimod-Rec/data/baby
       - ./results:/Formal-Multimod-Rec/results
   run_recommendation_2:
     image: sisinflabpoliba/mm-recsys
@@ -31,7 +31,7 @@ services:
             - capabilities: [ gpu ]
     command: bash -c "nvidia-smi && git pull && python3.11 run_split.py && python3.11 start_benchmarking.py --setting 2"
     volumes:
-      - ../Ducho/local:/Formal-Multimod-Rec/data/baby
+      - ../Ducho/local/data/demo_recsys:/Formal-Multimod-Rec/data/baby
       - ./results:/Formal-Multimod-Rec/results
   run_recommendation_3:
     image: sisinflabpoliba/mm-recsys
@@ -47,5 +47,5 @@ services:
             - capabilities: [ gpu ]
     command: bash -c "nvidia-smi && git pull && python3.11 run_split.py && python3.11 start_benchmarking.py --setting 3"
     volumes:
-      - ../Ducho/local:/Formal-Multimod-Rec/data/baby
+      - ../Ducho/local/data/demo_recsys:/Formal-Multimod-Rec/data/baby
       - ./results:/Formal-Multimod-Rec/results
