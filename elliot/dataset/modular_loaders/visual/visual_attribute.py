@@ -23,7 +23,7 @@ class VisualAttribute(AbstractLoader):
         if self.image_size_tuple:
             self.image_size_tuple = literal_eval(self.image_size_tuple)
 
-        # items = set(str(it) for it in items)
+        items = set(str(it) for it in items)
         inner_items = self.check_items_in_folder()
 
         self.users = users
