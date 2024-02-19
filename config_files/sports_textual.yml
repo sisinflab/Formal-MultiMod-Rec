@@ -7,7 +7,7 @@ experiment:
     test_path: ../data/{0}/test.txt
     side_information:
       - dataloader: TextualAttribute
-        visual_features: ../data/{0}/text_feat
+       textual_features: ../data/{0}/text_feat
   dataset: sports
   top_k: 20
   evaluation:
