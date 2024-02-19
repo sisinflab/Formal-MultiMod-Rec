@@ -14,7 +14,7 @@ class TextualAttribute(AbstractLoader):
         self.item_mapping = {}
         self.textual_features_shape = None
 
-        items = set(str(it) for it in items)
+        # items = set(str(it) for it in items)
         inner_items = self.check_items_in_folder()
 
         self.users = users
