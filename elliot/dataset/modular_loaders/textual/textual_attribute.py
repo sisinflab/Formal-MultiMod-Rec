@@ -14,7 +14,7 @@ class TextualAttribute(AbstractLoader):
         self.item_mapping = {}
         self.textual_features_shape = None
 
-        items = set(str(it) for it in items)
+        # items = set(str(it) for it in items)
         inner_items = self.check_items_in_folder()
 
         self.users = users
@@ -44,7 +44,7 @@ class TextualAttribute(AbstractLoader):
         items = set()
         if self.textual_feature_folder_path:
             items_folder = os.listdir(self.textual_feature_folder_path)
-            items = items.union(set([f.split('.')[0] for f in items_folder]))
+            items = items.union(set([int(f.split('.')[0]) for f in items_folder]))
             self.textual_features_shape = np.load(os.path.join(self.textual_feature_folder_path,
                                                                items_folder[0])).shape[-1]
         return items
