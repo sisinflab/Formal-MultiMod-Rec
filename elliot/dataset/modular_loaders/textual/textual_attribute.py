@@ -43,7 +43,6 @@ class TextualAttribute(AbstractLoader):
     def check_items_in_folder(self) -> t.Set[int]:
         items = set()
         if self.textual_feature_folder_path:
-            print(1)
             items_folder = os.listdir(self.textual_feature_folder_path)
             items = items.union(set([int(f.split('.')[0]) for f in items_folder]))
             self.textual_features_shape = np.load(os.path.join(self.textual_feature_folder_path,
