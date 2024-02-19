@@ -18,8 +18,6 @@ class TextualAttribute(AbstractLoader):
         inner_items = self.check_items_in_folder()
 
         self.users = users
-        print(items)
-        print(inner_items)
         self.items = items & inner_items
 
     def get_mapped(self) -> t.Tuple[t.Set[int], t.Set[int]]:
