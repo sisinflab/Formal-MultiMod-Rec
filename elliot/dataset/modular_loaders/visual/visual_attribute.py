@@ -35,7 +35,7 @@ class VisualAttribute(AbstractLoader):
     def filter(self, users: t.Set[int], items: t.Set[int]):
         self.users = self.users & users
         self.items = self.items & items
-        self.item_mapping = {item: val for val, item in enumerate(self.items)}
+        self.item_mapping = {int(item): val for val, item in enumerate(self.items)}
 
     def create_namespace(self) -> SimpleNamespace:
         ns = SimpleNamespace()
@@ -100,4 +100,3 @@ class VisualAttribute(AbstractLoader):
             for key, value in self.item_mapping.items():
                 all_features[value] = np.load(self.visual_feat_map_feature_folder_path + '/' + str(key) + '.npy')
         return all_features
-

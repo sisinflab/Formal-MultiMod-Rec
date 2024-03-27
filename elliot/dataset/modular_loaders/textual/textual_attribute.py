@@ -26,7 +26,7 @@ class TextualAttribute(AbstractLoader):
     def filter(self, users: t.Set[int], items: t.Set[int]):
         self.users = self.users & users
         self.items = self.items & items
-        self.item_mapping = {item: val for val, item in enumerate(self.items)}
+        self.item_mapping = {int(item): val for val, item in enumerate(self.items)}
 
     def create_namespace(self) -> SimpleNamespace:
         ns = SimpleNamespace()
