@@ -2,7 +2,7 @@
 
 <img src="https://github.com/sisinflab/Formal-MultiMod-Rec/blob/main/framework.png?raw=true"  width="1000">
 
-Official repository for the paper _**Formalizing Multimedia Recommendation through Multimodal Deep Learning**_, accepted at ACM Transactions on Recommender Systems.
+Official repository for the paper _**Formalizing Multimedia Recommendation through Multimodal Deep Learning**_, accepted in ACM Transactions on Recommender Systems.
 
 **Authors**
 
