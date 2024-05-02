@@ -109,7 +109,7 @@ class clustered_Recall(BaseMetric):
         """
         for user_group, users in self._user_clustering.items():
             print(user_group)
-            print(type(user_group)
+            print(type(user_group))
             self._values_dict[user_group] = np.average([self.__user_recall(u_r, u, self._cutoff) for u, u_r in self._recommendations.items() if len(self._relevance.get_user_rel(u)) and u in users])
 
         self._metric_objs_list = []
