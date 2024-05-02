@@ -1,0 +1,42 @@
+experiment:
+  backend: pytorch
+  data_config:
+    strategy: fixed
+    train_path: ../data/{0}/train_indexed.tsv
+    validation_path: ../data/{0}/val_indexed.tsv
+    test_path: ../data/{0}/test_indexed.tsv
+    side_information:
+      - dataloader: VisualAttribute
+        visual_features: ../data/{0}/visual_embeddings_indexed/tensorflow/ResNet50/avg_pool
+  dataset: baby
+  top_k: 50
+  evaluation:
+    cutoffs: [ 10, 20, 50 ]
+    simple_metrics: [ Recall, nDCG ]
+    complex_metrics:
+      - metric: clustered_Recall
+        user_clustering_name: WarmColdUsers
+        user_clustering_file: ../data/baby/rilassamento.tsv
+      - metric: clustered_nDCG
+        user_clustering_name: WarmColdUsers
+        user_clustering_file: ../data/baby/rilassamento.tsv
+  gpu: 0
+  external_models_path: ../external/models/__init__.py
+  models:
+    external.VBPR:
+      meta:
+        hyper_opt_alg: grid
+        verbose: True
+        save_weights: False
+        save_recs: False
+        validation_rate: 1
+        validation_metric: Recall@20
+        restore: False
+      lr: 0.01
+      modalities: ('visual',)
+      epochs: 10
+      factors: 64
+      batch_size: 1024
+      l_w: 1e-2
+      comb_mod: concat
+      seed: 123
