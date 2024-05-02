@@ -115,11 +115,11 @@ class clustered_Recall(BaseMetric):
             try:
                 self._values_dict['0']
             except:
-                pass
+                print('string')
             try:
                 self._values_dict[0]
             except:
-                pass
+                print('integer')
             self._metric_objs_list.append(ProxyMetric(name= f"Recall_users:{self._user_clustering_name}-{u_group}",
                                                       val=self._values_dict[u_group],
                                                       needs_full_recommendations=False))
