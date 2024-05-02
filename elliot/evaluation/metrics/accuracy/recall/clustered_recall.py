@@ -111,8 +111,15 @@ class clustered_Recall(BaseMetric):
             self._values_dict[user_group] = np.average([self.__user_recall(u_r, u, self._cutoff) for u, u_r in self._recommendations.items() if len(self._relevance.get_user_rel(u)) and u in users])
 
         self._metric_objs_list = []
-        print(self._values_dict.keys())
         for u_group in range(self._user_n_clusters):
+            try:
+                self._values_dict['0']
+            except:
+                pass
+            try:
+                self._values_dict[0]
+            except:
+                pass
             self._metric_objs_list.append(ProxyMetric(name= f"Recall_users:{self._user_clustering_name}-{u_group}",
                                                       val=self._values_dict[u_group],
                                                       needs_full_recommendations=False))
