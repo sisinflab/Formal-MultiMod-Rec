@@ -54,6 +54,7 @@ class clustered_Recall(BaseMetric):
         if self._user_clustering_path:
             self._user_clustering = pd.read_csv(self._user_clustering_path, sep="\t", header=None,
                                                 names=['user', 'group'])
+            print(self._user_clustering)
             self._user_clustering = {k: v["user"].tolist() for k, v in self._user_clustering.groupby(by=["group"])}
             self._user_n_clusters = len(self._user_clustering)
             # self._user_clustering = dict(zip(self._user_clustering[0], self._user_clustering[1]))
