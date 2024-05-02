@@ -8,7 +8,7 @@ experiment:
     side_information:
       - dataloader: VisualAttribute
         visual_features: ../data/{0}/visual_embeddings_indexed/tensorflow/ResNet50/avg_pool
-  dataset: toys
+  dataset: music
   top_k: 50
   evaluation:
     cutoffs: [20]
@@ -16,10 +16,10 @@ experiment:
     complex_metrics:
       - metric: clustered_Recall
         user_clustering_name: WarmColdUsers
-        user_clustering_file: ../data/toys/rilassamento_indexed.tsv
+        user_clustering_file: ../data/music/rilassamento_indexed.tsv
       - metric: clustered_nDCG
         user_clustering_name: WarmColdUsers
-        user_clustering_file: ../data/toys/rilassamento_indexed.tsv
+        user_clustering_file: ../data/music/rilassamento_indexed.tsv
   gpu: 0
   external_models_path: ../external/models/__init__.py
   models:
