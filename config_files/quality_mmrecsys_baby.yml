@@ -16,10 +16,10 @@ experiment:
     complex_metrics:
       - metric: clustered_Recall
         user_clustering_name: WarmColdUsers
-        user_clustering_file: ../data/baby/rilassamento.tsv
+        user_clustering_file: ../data/baby/rilassamento_indexed.tsv
       - metric: clustered_nDCG
         user_clustering_name: WarmColdUsers
-        user_clustering_file: ../data/baby/rilassamento.tsv
+        user_clustering_file: ../data/baby/rilassamento_indexed.tsv
   gpu: 0
   external_models_path: ../external/models/__init__.py
   models:
