@@ -54,7 +54,7 @@ class clustered_Recall(BaseMetric):
         if self._user_clustering_path:
             self._user_clustering = pd.read_csv(self._user_clustering_path, sep="\t", header=None,
                                                 names=['user', 'group'])
-            self._user_clustering = {k[0]: v["user"].tolist() for k, v in self._user_clustering.groupby(by=["group"])}
+            self._user_clustering = {int(k[0]): v["user"].tolist() for k, v in self._user_clustering.groupby(by=["group"])}
             self._user_n_clusters = len(self._user_clustering)
             # self._user_clustering = dict(zip(self._user_clustering[0], self._user_clustering[1]))
             self._user_clustering_name = self._additional_data['user_clustering_name']
@@ -108,7 +108,6 @@ class clustered_Recall(BaseMetric):
         :return: the overall value of Bias Disparity - Bias Source
         """
         for user_group, users in self._user_clustering.items():
-            print(user_group)
             self._values_dict[user_group] = np.average([self.__user_recall(u_r, u, self._cutoff) for u, u_r in self._recommendations.items() if len(self._relevance.get_user_rel(u)) and u in users])
 
         self._metric_objs_list = []
