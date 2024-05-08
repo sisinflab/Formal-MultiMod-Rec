@@ -9,6 +9,7 @@ __email__ = 'vitowalter.anelli@poliba.it, claudio.pomo@poliba.it'
 
 import operator
 
+import pandas as pd
 import numpy as np
 from elliot.evaluation.metrics.base_metric import BaseMetric
 
