@@ -12,6 +12,7 @@ import operator
 import pandas as pd
 import numpy as np
 from elliot.evaluation.metrics.base_metric import BaseMetric
+from elliot.evaluation.metrics.metrics_utils import ProxyMetric
 
 
 class clustered_ACLT(BaseMetric):
