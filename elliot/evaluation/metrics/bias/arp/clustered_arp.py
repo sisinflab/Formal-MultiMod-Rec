@@ -33,7 +33,7 @@ class clustered_ARP(BaseMetric):
         simple_metrics: [ARP]
     """
 
-    def __init__(self, recommendations, config, params, eval_objects):
+    def __init__(self, recommendations, config, params, eval_objects, additional_data):
         """
         Constructor
         :param recommendations: list of recommendations in the form {user: [(item1,value1),...]}
@@ -41,7 +41,7 @@ class clustered_ARP(BaseMetric):
         :param params: Parameters of the model
         :param eval_objects: list of objects that may be useful for the computation of the different metrics
         """
-        super().__init__(recommendations, config, params, eval_objects)
+        super().__init__(recommendations, config, params, eval_objects, additional_data)
         self._cutoff = self._evaluation_objects.cutoff
         self._pop_items = self._evaluation_objects.pop.get_pop_items()
 
