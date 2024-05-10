@@ -36,7 +36,7 @@ from elliot.evaluation.metrics.diversity.SRecall import SRecall
 from elliot.evaluation.metrics.novelty.EFD import EFD, ExtendedEFD
 from elliot.evaluation.metrics.novelty.EPC import EPC, ExtendedEPC
 
-from elliot.evaluation.metrics.bias import ARP, APLT, ACLT, PopRSP, PopREO, ExtendedPopRSP, ExtendedPopREO, clustered_APLT, clustered_ACLT, clustered_ARP
+from elliot.evaluation.metrics.bias import ARP, APLT, ACLT, PopRSP, PopREO, ExtendedPopRSP, ExtendedPopREO, clustered_APLT, single_ARP, clustered_ACLT, clustered_ARP
 
 from elliot.evaluation.metrics.fairness.MAD import UserMADrating, ItemMADrating, UserMADranking, ItemMADranking
 from elliot.evaluation.metrics.fairness.BiasDisparity import BiasDisparityBR, BiasDisparityBS, BiasDisparityBD
@@ -83,6 +83,7 @@ _metric_dictionary = {
     "BiasDisparityBD": BiasDisparityBD,
     "SRecall": SRecall,
     "ARP": ARP,
+    "single_ARP": single_ARP,
     "APLT": APLT,
     "ACLT": ACLT,
     "PopRSP": PopRSP,

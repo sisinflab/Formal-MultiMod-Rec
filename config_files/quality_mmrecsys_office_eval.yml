@@ -12,7 +12,7 @@ experiment:
   top_k: 50
   evaluation:
     cutoffs: [20]
-    simple_metrics: [Recall, nDCG, Precision, HR, APLT, ACLT, ARP, single_nDCG]
+    simple_metrics: [Recall, nDCG, Precision, HR, APLT, ACLT, ARP, single_nDCG, single_ARP]
     complex_metrics:
       - metric: clustered_Recall
         user_clustering_name: WarmColdUsers
