@@ -12,7 +12,7 @@ __version__ = '0.3.1'
 __author__ = 'Vito Walter Anelli, Claudio Pomo'
 __email__ = 'vitowalter.anelli@poliba.it, claudio.pomo@poliba.it'
 
-from elliot.evaluation.metrics.accuracy.ndcg import nDCG, nDCGRendle2020, clustered_nDCG
+from elliot.evaluation.metrics.accuracy.ndcg import nDCG, nDCGRendle2020, clustered_nDCG, single_nDCG
 from elliot.evaluation.metrics.accuracy.precision import Precision
 from elliot.evaluation.metrics.accuracy.recall import Recall, clustered_Recall
 from elliot.evaluation.metrics.accuracy.hit_rate import HR
@@ -47,6 +47,7 @@ from elliot.evaluation.metrics.statistical_array_metric import StatisticalMetric
 
 _metric_dictionary = {
     "nDCG": nDCG,
+    "single_nDCG": single_nDCG,
     "nDCGRendle2020": nDCGRendle2020,
     "Precision": Precision,
     "Recall": Recall,
