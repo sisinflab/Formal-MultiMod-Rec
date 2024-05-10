@@ -9,6 +9,7 @@ __email__ = 'vitowalter.anelli@poliba.it, claudio.pomo@poliba.it'
 
 import numpy as np
 import pandas as pd
+
 from elliot.evaluation.metrics.base_metric import BaseMetric
 
 
@@ -80,7 +81,7 @@ class single_ARP(BaseMetric):
         Evaluation function
         :return: the overall averaged value of ARP
         """
-        dictionary = {u: ARP.__user_arp(u_r, self._cutoff, self._pop_items)
+        dictionary = {u: single_ARP.__user_arp(u_r, self._cutoff, self._pop_items)
              for u, u_r in self._recommendations.items()}
         pd.DataFrame.from_dict(dictionary, orient='index').to_csv('single_arp.tsv', sep='\t', header=None)
         return dictionary
