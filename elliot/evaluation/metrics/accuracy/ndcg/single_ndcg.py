@@ -64,7 +64,7 @@ class single_nDCG(BaseMetric):
         Metric Name Getter
         :return: returns the public name of the metric
         """
-        return "nDCG"
+        return "single_nDCG"
 
     def compute_idcg(self, user, cutoff: int) -> float:
         """
@@ -123,7 +123,7 @@ class single_nDCG(BaseMetric):
         """
         dictionary = {u: self.__user_ndcg(u_r, u, self._cutoff)
              for u, u_r in self._recommendations.items() if len(self._relevance.get_user_rel(u))}
-        pd.DataFrame(dictionary).to_csv('single_ndgc.tsv', sep='\t', header=None)
+        pd.DataFrame.from_dict(dictionary, orient='index').to_csv('single_ndgc.tsv', sep='\t', header=None)
         return dictionary
 
 
