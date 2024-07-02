@@ -7,15 +7,17 @@ Official repository for the paper _**Formalizing Multimedia Recommendation throu
 **Authors**
 
 - Daniele Malitesta* (daniele.malitesta@centralesupelec.fr)
-- Giandomenico Cornacchia (giandomenico.cornacchia@poliba.it)
+- Giandomenico Cornacchia** (giandomenico.cornacchia1@ibm.com)
 - Claudio Pomo (claudio.pomo@poliba.it)
-- Felice Antonio Merra** (felmerra@amazon.de)
+- Felice Antonio Merra*** (felmerra@amazon.de)
 - Tommaso Di Noia (tommaso.dinoia@poliba.it)
 - Eugenio Di Sciascio (eugenio.disciascio@poliba.it)
 
 \* _Work done while at Politecnico di Bari as a PhD student._
 
-\*\* _Work done while at Politecnico di Bari before joining Amazon._
+\*\* _Work done while at Politecnico di Bari before joining IBM Reseach Europe._
+
+\*\*\* _Work done while at Politecnico di Bari before joining Amazon._
 
 If you wish to cite our [paper](https://arxiv.org/abs/2309.05273), here is a reference:
 
